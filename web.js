@@ -1,4 +1,6 @@
+#!/usr/bin/env node
 var express = require('express');
+var fs = require('fs');
 
 var app = express.createServer(express.logger());
 var txt = fs.readFile("index.html");
